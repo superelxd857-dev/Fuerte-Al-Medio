@@ -1,5 +1,5 @@
 // Service worker: primero la red (para recibir actualizaciones), y si no hay internet, la copia guardada.
-var V = 'fuerte-al-medio-v1';
+var V = 'fuerte-al-medio-v5';
 var FILES = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 
 self.addEventListener('install', function (e) {
